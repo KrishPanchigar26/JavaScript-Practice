@@ -1,0 +1,3 @@
+Two types 
+Primitive: String, Number, Boolean, null, undefined, symbol, BigInt
+Non Primitive: Array, Objects, Functions

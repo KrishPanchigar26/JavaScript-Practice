@@ -1,0 +1,1 @@
+console.log("2" == 2); // checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.

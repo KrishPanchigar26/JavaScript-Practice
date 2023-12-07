@@ -1,0 +1,7 @@
+const,var,let save values
+in const u can not change values once assigned
+log is shortcut for console.log
+console.table for creating table form
+if the variable is declared in "var" then it will create issue in block scope and functional scope
+but that is not in case of "let"
+use const and let only var is not recommanded
