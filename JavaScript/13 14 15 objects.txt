@@ -1,1 +1,3 @@
-
+in 13.js file whole object Beginner is described
+in 14.js file we have seen the advance use of object
+in 15.js file we studied about destructuring 
