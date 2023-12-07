@@ -1,1 +1,0 @@
-newdate.toLocaleString('default', {}) syntax for getting date with our customization
