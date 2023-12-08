@@ -1,0 +1,3 @@
+1 () for function defination and 2 () for execution call
+
+IIFE is used to remove pollution over global scope
