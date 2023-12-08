@@ -1,0 +1,3 @@
+22.js contains if else
+23.js contains switchcase
+24.js contains truthy("0", 'false', " ", [], {}, function (){}) and falsy values(false, 0, -0, null, undefined, BigInt 0n, "", NaN)
