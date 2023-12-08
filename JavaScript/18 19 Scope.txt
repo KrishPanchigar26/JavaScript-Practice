@@ -1,0 +1,1 @@
+in scope u cant call value from local scope but u can call values of global scope in local scope
