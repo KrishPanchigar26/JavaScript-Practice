@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body style="background-color: #212121;">
+    <button id="orange">orange</button>
+    <button id="green">green</button>
+</body>
+
+<script>
+// function init() {
+//     let name = "Mozilla";
+//     function displayName() {
+//         console.log(name);
+//     }
+//   displayName();
+// }
+// init();
+
+// function outer(){
+//     let username = 'krish'
+//     function inner(){
+//         console.log("inner", username);
+//     }
+//     inner()
+// }
+
+// outer()
+// console.log("Too Outer" ,username);
+
+function makeFunc() {
+  const name = "Mozilla";
+  function displayName() {
+    console.log(name);
+  }
+  return displayName;
+}
+
+const myFunc = makeFunc();
+myFunc();
+
+
+</script>
+
+<script>
+
+    function clickhandle(color){
+        return function() {
+            document.body.style.backgroundColor = `${color}`
+        }
+    }
+
+    document.getElementById('orange').onclick = clickhandle('orange')
+    document.getElementById('green').onclick = clickhandle('green')
+
+</script>
+
+</html>
